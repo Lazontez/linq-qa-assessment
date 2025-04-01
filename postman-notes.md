@@ -26,7 +26,7 @@ accept: application/json content-type: application/json origin: https://linqapp.
 - **File Received:** `Football_Fred2261111.vcf`
 ---
 
-## **Findings & Observations**
+## **Findings**
 
 ###  **Contact Saving Behavior**
 - The request successfully retrieves a `.vcf` file, allowing the contact to be downloaded.
