@@ -10,7 +10,7 @@
 **Expected Result:** The button should remain as "Exchange Contact" unless the user successfully saves or exchanges contact information.  
 **Actual Result:** The button updates to "Contact Saved" even when no contact is downloaded or exchanged.  
 
-[Exchange Contact Text Updated to Contact Saved Incorrectly](./images/bugs/Recording%202025-04-01%20093214.mp4)
+[Exchange Contact Text Updated to Contact Saved Incorrectly](./assets/bugs/Recording%202025-04-01%20093214.mp4)
 
 ---
 
@@ -24,6 +24,6 @@
 **Expected Result:** The pop-up should automatically close after successful contact save, allowing the success message to be visible.  
 **Actual Result:** The pop-up remains open, covering the success confirmation.  
 
-![Exchange info pop-up not closing after save](./images/bugs/Screenshot%202025-04-01%20091923.png)
+![Exchange info pop-up not closing after save](./assets/bugs/Screenshot%202025-04-01%20091923.png)
 
 
