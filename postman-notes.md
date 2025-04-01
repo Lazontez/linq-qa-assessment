@@ -118,7 +118,7 @@
 
 
 ### 8.
-**Test Case ID:** TC009  
+**Test Case ID:** TC008  
 **Description:** Validate that saving a contact works consistently across different web browsers.  
 **Preconditions:** The user has access to a valid Linq profile URL on multiple browsers.  
 **Test Steps:**  
@@ -130,3 +130,19 @@
    - **Expected Result:** The profile loads and the exchange contact process works consistently across all tested browsers.  
 4. **Compare the results across browsers.**  
    - **Expected Result:** The process should eb consistent, with no browser-specific UI/UX discrepancies.
+
+### 9.
+**Test Case ID:** TC009
+**Description:** Validate that if a user starts the contact saving process by clicking "Exchange Contact" and then navigates back (or exits), no partial or unsaved data is stored.  
+**Preconditions:**  
+- The user has access to a valid Linq profile URL.  
+
+**Test Steps:**  
+1. **Load a public Linq profile on a desktop or mobile browser.**  
+   - **Expected Result:** The profile successfully loads without any errors.  
+2. **Click on the "Exchange Contact" button.**  
+   - **Expected Result:** The 'Exchange Info' pop-up is displayed with the required fields and buttons (Name, Phone, Email, Continue button, and Download Contact link).  
+3. **Click outside of the 'Exhange Contact' popup**  
+   - **Expected Result:** The 'Exchange Contact' pop-up should no longer be displayed and the 'Exhchange Contact' text should remain the same 'Exchange Contact' and NOT 'Contact Saved'
+
+
