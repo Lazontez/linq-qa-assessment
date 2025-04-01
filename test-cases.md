@@ -87,7 +87,7 @@
 ### 6.
 **Test Case ID:** TC006  
 **Description:** Validate that the Linq profile page is accessible via a screen reader.  
-**Preconditions:** The user has a screen reader enabled (e.g., NVDA, JAWS, or VoiceOver) and access to  valid Linq profile.
+**Preconditions:** The user has a screen reader enabled (Example: NVDA, JAWS, or VoiceOver) and access to valid Linq profile.
 **Test Steps:**  
 1. **Load a public Linq profile with the screen reader enabled.**  
    - **Expected Result:** The profile should successfully load without issue.  
