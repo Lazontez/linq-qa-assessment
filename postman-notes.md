@@ -46,7 +46,4 @@ accept: application/json content-type: application/json origin: https://linqapp.
 
 ---
 
-### **My Suggestions**
--  Authentication to restrict access to contact downloads.
-- Improve contact-saving validation to ensure the "Contact Saved" status only appears after a successful save action by the user.
 
