@@ -7,6 +7,8 @@
 2. Click on the "Exchange Contact" button.  
 3. Do not download the contact or enter any information.  
 4. Validate that the "Exchange Contact" button updates to "Contact Saved" without actually saving the contact info.  
+
+
 **Expected Result:** The button should remain as "Exchange Contact" unless the user successfully saves or exchanges contact information.  
 **Actual Result:** The button updates to "Contact Saved" even when no contact is downloaded or exchanged.  
 
@@ -20,7 +22,9 @@
 1. Load a public Linq profile.  
 2. Click on the "Exchange Contact" button.  
 3. Download the contact or enter information and click continue.  
-4. Validate that the 'Exchange Info' pop-up does not close, blocking the success message.  
+4. Validate that the 'Exchange Info' pop-up does not close, blocking the success message. 
+
+
 **Expected Result:** The pop-up should automatically close after successful contact save, allowing the success message to be visible.  
 **Actual Result:** The pop-up remains open, covering the success confirmation.  
 
