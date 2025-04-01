@@ -133,6 +133,7 @@
 
 ### 9.
 **Test Case ID:** TC009
+
 **Description:** Validate that if a user starts the contact saving process by clicking "Exchange Contact" and then navigates back (or exits), no partial or unsaved data is stored.  
 **Preconditions:**  
 - The user has access to a valid Linq profile URL.  

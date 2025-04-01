@@ -2,7 +2,7 @@
 ---
 
 ## **API**
-### **Steps Taken:**
+### **Steps:**
 1. Used Postman to simulate saving a contact by making API requests to Linq.
 2. Captured request headers, payloads, and responses.
 3. Used browser dev tools to cross-check network activity during contact-save.
