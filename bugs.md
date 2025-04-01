@@ -1,0 +1,2 @@
+1. Clicking the 'Exchange Contact' but not actually downloading or saving icon still results in the 'Contact Saved' text. User did not save any contact info
+2. Exchange Info popup remains displayed after the user saves contact(This blocks the 'contact saved success message')
